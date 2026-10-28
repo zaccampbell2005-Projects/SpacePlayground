@@ -1,4 +1,4 @@
-# 🌌 Quantum·Relativity Cosmos
+# Quantum Relativity Cosmos
 
 > An interactive real-time astrophysics sandbox simulating N-body orbital gravity, general relativistic corrections, gravitational-wave inspirals, black hole mergers, Hawking radiation, and celestial atmosphere dynamics.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🔭 Table of Contents
+## Table of Contents
 1. [Overview](#overview)
 2. [Physics & Astrophysics Engine](#physics--astrophysics-engine)
 3. [Visual & Rendering Architecture](#visual--rendering-architecture)
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **Quantum·Relativity Cosmos** blends orbital celestial mechanics with quantum and general relativistic phenomena into an interactive, real-time web sandbox. Build solar systems from scratch, throw rogue black holes into stable multi-star systems, or watch compact binaries radiate gravitational waves until they collide and emit space-warping ripples.
 
@@ -34,7 +34,7 @@ The simulation runs in a decoupled physics loop with 60 FPS Canvas 2D and WebGL 
 
 ---
 
-## 🪐 Physics & Astrophysics Engine
+## Physics & Astrophysics Engine
 
 The physics simulation core lives in pure TypeScript (`src/cosmos/physics.ts`) without UI or DOM dependencies, allowing full deterministic testing.
 
@@ -63,7 +63,7 @@ The physics simulation core lives in pure TypeScript (`src/cosmos/physics.ts`) w
 
 ---
 
-## 🎨 Visual & Rendering Architecture
+## Visual & Rendering Architecture
 
 A dual-engine rendering pipeline maximizes visual fidelity and frame rate across desktop and mobile:
 
@@ -80,7 +80,7 @@ A dual-engine rendering pipeline maximizes visual fidelity and frame rate across
 
 ---
 
-## 🎵 Generative Audio System
+## Generative Audio System
 
 Built with the browser **Web Audio API** (`src/cosmos/audio.ts`):
 - **Deep Spacetime Drone:** Dual low-frequency detuned oscillators running through a multi-pole low-pass filter modulated by total system gravitational curvature.
@@ -89,7 +89,7 @@ Built with the browser **Web Audio API** (`src/cosmos/audio.ts`):
 
 ---
 
-## 🕹️ Interactive Controls & Tools
+## Interactive Controls & Tools
 
 ### Bottom Control Dock
 - **Select Tool (`1`):** Click any body to focus, view real-time orbital telemetry, or drag to reposition.
@@ -110,7 +110,7 @@ When selecting any body:
 
 ---
 
-## 🔨 Celestial Forge (Custom Body Designer)
+## Celestial Forge (Custom Body Designer)
 
 The Celestial Forge allows fine-grained customization of planetary and stellar parameters:
 
@@ -126,7 +126,7 @@ The Celestial Forge allows fine-grained customization of planetary and stellar p
 
 ---
 
-## 🪐 Presets & Scenarios
+## Presets & Scenarios
 
 The simulator includes curated astrophysical setups accessible via the top-left dropdown:
 
@@ -137,7 +137,7 @@ The simulator includes curated astrophysical setups accessible via the top-left 
 
 ---
 
-## ☁️ Saving, Sharing & Account Management
+## Saving, Sharing & Account Management
 
 ### Public Share Links
 - Save any custom universe to generate a permanent, shareable URL.
@@ -150,7 +150,7 @@ The simulator includes curated astrophysical setups accessible via the top-left 
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Shortcut | Action |
 | :--- | :--- |
@@ -167,7 +167,7 @@ The simulator includes curated astrophysical setups accessible via the top-left 
 
 ---
 
-## 💻 Local Development & Setup
+## Local Development & Setup
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+) or [Bun](https://bun.sh/) (v1.1+)
